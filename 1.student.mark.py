@@ -15,7 +15,6 @@ Input functions:
 • Show student marks for a given course
 '''
 
-students = []
 studentID = []
 studentName = []
 courseID = []
