@@ -35,7 +35,7 @@ class Entity:
         self.name = name
         self.ID = ID
     
-    def toString():
+    def toString(self):
         print(f"Name: {self.name}\n ID: {self.ID}\n")
 
 class Student(Entity):
@@ -52,7 +52,7 @@ class Student(Entity):
         super().IDList.append(ID)
         super().DoBList.append(DoB)
 
-    def toString():
+    def toString(self):
         super().toString()
         print(f"DoB: {self.DoB}\n")
 
