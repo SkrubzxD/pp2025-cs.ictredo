@@ -16,17 +16,6 @@ studentGPAList = []
 - GPA = totalGPA / len(coursesParticipated)
 studentGPAList[::-1].sort() 
 '''
-
-'''
-Practical work 4: modularization
-• Decorate your UI with curses module 
-• Split your program 3.student.mark.oop.math.py to modules
-and packages in a new pw4 directory
-• input.py: module for input    
-    • output.py: module for curses output   
-    • domains: package for classes  
-• main.py: main script for coordination 
-'''
 courseList = []
 studentList = []
 class StudentList:
@@ -74,10 +63,7 @@ class Student(Entity):
 
     def toString(self):
         super().toString()
-        print(f"DoB: {self.DoB}\n")
-
-
-    
+        print(f"DoB: {self.DoB}\n") 
 
 class Course(Entity):
     numberOfStudents = 0

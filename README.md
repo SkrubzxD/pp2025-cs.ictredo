@@ -1,4 +1,4 @@
-USTH ICT 2025 Advanced Programming with Python
+# USTH ICT 2025 Advanced Programming with Python
 =====================================================
 
 Students are expected to:
@@ -6,7 +6,7 @@ Students are expected to:
 * Push your commits regularly, with **proper** commit messages
 
 
-Student Info
+# Student Info
 =========================
 
 * Student Name: Nguyễn Đặng Nhật Anh 
